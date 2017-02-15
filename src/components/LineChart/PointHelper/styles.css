@@ -1,0 +1,20 @@
+.root {
+
+}
+
+.inner {
+  stroke: #d0d3d4;
+  stroke-opacity: 0;
+  stroke-dasharray: 9 5;
+  stroke-width: 1;
+}
+
+.active .inner {
+  stroke-opacity: 1;
+}
+
+.wrapper {
+  stroke: transparent;
+  stroke-width: 7;
+  cursor: pointer;
+}

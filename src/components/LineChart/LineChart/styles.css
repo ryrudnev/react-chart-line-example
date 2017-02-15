@@ -1,0 +1,9 @@
+.root {
+  position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.root_with_padding svg {
+  padding: .500rem .500rem 0 0;
+}

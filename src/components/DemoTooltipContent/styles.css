@@ -1,0 +1,35 @@
+.root {
+  font-family: Sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.date {
+  color: #838892;
+}
+
+.payload {
+  font-size: 13px;
+  color: #000;
+}
+
+.payload span {
+  display: inline-block;
+}
+
+.payload span:not(:first-child) {
+  margin-left: 8px;
+}
+
+.delta {
+  color: #369f54;
+}
+
+.triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 10px 4px;
+  border-color: transparent transparent #369f54 transparent;
+}
