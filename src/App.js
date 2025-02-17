@@ -13,7 +13,7 @@ import {
   toUpperCaseFirst,
 } from './utils/demoUtils';
 
-const YEAR = 2015;
+const YEAR = 2077;
 const dates = getDatesFromRange(new Date(YEAR, 0, 1), new Date(YEAR, 11, 31));
 
 const data = [];

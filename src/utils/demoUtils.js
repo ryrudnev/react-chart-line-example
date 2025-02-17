@@ -53,4 +53,5 @@ export const createDateFromDay = (year, day) => {
   return new Date(date.setDate(day));
 };
 
+// TODO: add tests
 export const toUpperCaseFirst = (str) => str.charAt(0).toUpperCase() + str.slice(1);
